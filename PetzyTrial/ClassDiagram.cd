@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PetzyTrial.Model.Entity.Appointment">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAgAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entity\Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.PatientDetails">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <AssociationLine Name="appointment" Type="PetzyTrial.Model.Entity.Appointment">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.199" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAQAABAIAAAhBAAAACAAAQAAAAAAAAAAAACQ=</HashCode>
+      <FileName>Model\Entity\PatientDetails.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="symptom" />
+      <Property Name="vital" />
+      <Property Name="appointment" />
+      <Property Name="pet" />
+      <Property Name="prescription" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.Pet">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAAAAAAAABAAAAAAAAAIAAAAAIAAAAAAA=</HashCode>
+      <FileName>Model\Entity\Pet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.PetOwner">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAAAAAAAgBAAAAEAAAAAAAQAAAAAgAAAA=</HashCode>
+      <FileName>Model\Entity\PetOwner.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="pet" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.Prescription">
+    <Position X="2.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Model\Entity\Prescription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.Symptom">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Entity\Symptom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.Vet">
+    <Position X="0.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAABAAAAAAgQIQIAAUAAAAIAAAAA=</HashCode>
+      <FileName>Model\Entity\Vet.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="appointment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PetzyTrial.Model.Entity.Vital">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Model\Entity\Vital.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
